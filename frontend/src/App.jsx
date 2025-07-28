@@ -8,7 +8,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import Diagnosis from './pages/Diagnosis';
-import './App.css';
+import ToastProvider from './components/ui/toast';
 
 // Protected Route Component
 const ProtectedRoute = ({ children, allowedRoles = [] }) => {
@@ -264,6 +264,7 @@ function App() {
             </Routes>
           </main>
           <Footer />
+          <ToastProvider />
         </div>
       </Router>
     </AuthProvider>

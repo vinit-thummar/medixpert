@@ -1,0 +1,67 @@
+INFO 2025-07-25 13:20:43,777 autoreload 12049 139724172542592 Watching for file changes with StatReloader
+INFO 2025-07-25 13:21:58,192 basehttp 12049 139723523319360 "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+WARNING 2025-07-25 13:21:58,203 log 12049 139723523319360 Not Found: /api/auth/login/
+WARNING 2025-07-25 13:21:58,204 basehttp 12049 139723523319360 "POST /api/auth/login/ HTTP/1.1" 404 6252
+INFO 2025-07-25 13:22:21,897 autoreload 12653 140304061088384 Watching for file changes with StatReloader
+INFO 2025-07-25 13:22:49,614 autoreload 12716 140464017371776 Watching for file changes with StatReloader
+INFO 2025-07-25 13:22:58,933 autoreload 12716 140464017371776 /home/ubuntu/medixpert/backend/settings.py changed, reloading.
+INFO 2025-07-25 13:22:59,333 autoreload 12780 139819992101504 Watching for file changes with StatReloader
+INFO 2025-07-25 13:23:04,441 autoreload 12790 140680002056832 Watching for file changes with StatReloader
+INFO 2025-07-25 13:23:13,623 autoreload 12780 139819992101504 /home/ubuntu/medixpert/backend/settings.py changed, reloading.
+INFO 2025-07-25 13:23:14,229 autoreload 12814 139826954674816 Watching for file changes with StatReloader
+INFO 2025-07-25 13:23:23,532 autoreload 12814 139826954674816 /home/ubuntu/medixpert/backend/settings.py changed, reloading.
+INFO 2025-07-25 13:23:23,863 autoreload 12831 140505824682624 Watching for file changes with StatReloader
+INFO 2025-07-25 13:23:39,207 autoreload 12831 140505824682624 /home/ubuntu/medixpert/backend/settings.py changed, reloading.
+INFO 2025-07-25 13:23:39,604 autoreload 12863 139893856637568 Watching for file changes with StatReloader
+INFO 2025-07-25 13:23:44,995 autoreload 12863 139893856637568 /home/ubuntu/medixpert/backend/settings.py changed, reloading.
+INFO 2025-07-25 13:23:45,650 autoreload 12887 140136160854656 Watching for file changes with StatReloader
+INFO 2025-07-25 13:23:50,950 autoreload 12887 140136160854656 /home/ubuntu/medixpert/backend/settings.py changed, reloading.
+INFO 2025-07-25 13:25:28,072 autoreload 13046 139669150728832 Watching for file changes with StatReloader
+INFO 2025-07-25 13:27:03,691 autoreload 13046 139669150728832 /home/ubuntu/medixpert/backend/settings.py changed, reloading.
+INFO 2025-07-25 13:27:04,116 autoreload 13245 139781798908544 Watching for file changes with StatReloader
+INFO 2025-07-25 13:27:16,725 autoreload 13245 139781798908544 /home/ubuntu/medixpert/backend/settings.py changed, reloading.
+INFO 2025-07-25 13:27:17,477 autoreload 13285 140699986707072 Watching for file changes with StatReloader
+INFO 2025-07-25 13:28:03,883 autoreload 13367 140119680524928 Watching for file changes with StatReloader
+INFO 2025-07-25 13:28:26,258 autoreload 13367 140119680524928 /home/ubuntu/medixpert/backend/settings.py changed, reloading.
+INFO 2025-07-25 13:28:26,783 autoreload 13473 139895370691200 Watching for file changes with StatReloader
+INFO 2025-07-25 13:29:43,992 autoreload 13591 139938772963968 Watching for file changes with StatReloader
+INFO 2025-07-25 16:59:31,633 autoreload 16617 139705752793728 Watching for file changes with StatReloader
+INFO 2025-07-25 16:59:44,989 autoreload 16659 140054471189120 Watching for file changes with StatReloader
+INFO 2025-07-25 17:02:41,116 basehttp 16659 140053821933120 "GET /api/ HTTP/1.1" 200 662
+INFO 2025-07-25 17:02:41,117 basehttp 16659 140053813540416 "GET /api/ HTTP/1.1" 200 662
+INFO 2025-07-25 17:02:42,265 basehttp 16659 140053813540416 "GET /api/ HTTP/1.1" 200 662
+INFO 2025-07-25 17:02:42,373 basehttp 16659 140053813540416 "GET /api/ HTTP/1.1" 200 662
+INFO 2025-07-25 17:02:43,607 basehttp 16659 140053813540416 "GET /api/ HTTP/1.1" 200 662
+INFO 2025-07-25 17:02:43,616 basehttp 16659 140053813540416 "GET /api/ HTTP/1.1" 200 662
+INFO 2025-07-25 17:02:44,813 basehttp 16659 140053813540416 "GET /api/ HTTP/1.1" 200 662
+INFO 2025-07-25 17:02:44,839 basehttp 16659 140053813540416 "GET /api/ HTTP/1.1" 200 662
+INFO 2025-07-25 17:02:56,546 basehttp 16659 140053813540416 "GET /api/ HTTP/1.1" 200 662
+WARNING 2025-07-25 17:03:44,283 log 16659 140053813540416 Method Not Allowed: /api/
+WARNING 2025-07-25 17:03:44,283 basehttp 16659 140053813540416 "HEAD /api/ HTTP/1.1" 405 0
+INFO 2025-07-25 17:03:44,292 basehttp 16659 140053813540416 "GET /api/ HTTP/1.1" 200 662
+INFO 2025-07-26 07:21:54,679 autoreload 22059 140184943456896 Watching for file changes with StatReloader
+INFO 2025-07-26 07:22:25,930 basehttp 22059 140184294250048 "GET /api/ HTTP/1.1" 200 662
+WARNING 2025-07-26 07:22:32,373 log 22059 140184294250048 Not Found: /api/auth/register/
+WARNING 2025-07-26 07:22:32,373 basehttp 22059 140184294250048 "POST /api/auth/register/ HTTP/1.1" 404 6261
+WARNING 2025-07-26 07:22:43,839 log 22059 140184294250048 Bad Request: /api/auth/auth/register/
+WARNING 2025-07-26 07:22:43,839 basehttp 22059 140184294250048 "POST /api/auth/auth/register/ HTTP/1.1" 400 129
+INFO 2025-07-26 07:22:47,196 views 22059 140184294250048 New user registered: testpatient
+INFO 2025-07-26 07:22:47,356 basehttp 22059 140184294250048 "POST /api/auth/auth/register/ HTTP/1.1" 201 749
+INFO 2025-07-26 07:22:50,416 views 22059 140184294250048 User testpatient logged in successfully
+INFO 2025-07-26 07:22:50,416 basehttp 22059 140184294250048 "POST /api/auth/auth/login/ HTTP/1.1" 200 906
+ERROR 2025-07-26 07:22:53,952 views 22059 140184294250048 Registration error: NOT NULL constraint failed: accounts_doctor.years_of_experience
+ERROR 2025-07-26 07:22:53,953 log 22059 140184294250048 Internal Server Error: /api/auth/auth/register/
+ERROR 2025-07-26 07:22:53,953 basehttp 22059 140184294250048 "POST /api/auth/auth/register/ HTTP/1.1" 500 50
+INFO 2025-07-26 07:23:13,004 autoreload 22059 140184943456896 /home/ubuntu/medixpert/accounts/serializers.py changed, reloading.
+INFO 2025-07-26 07:23:13,679 autoreload 22199 140638794375808 Watching for file changes with StatReloader
+INFO 2025-07-26 07:23:24,072 autoreload 22199 140638794375808 /home/ubuntu/medixpert/accounts/serializers.py changed, reloading.
+INFO 2025-07-26 07:23:24,494 autoreload 22217 140427472880256 Watching for file changes with StatReloader
+INFO 2025-07-26 07:23:40,474 autoreload 22429 140007858446976 Watching for file changes with StatReloader
+INFO 2025-07-26 07:24:17,162 autoreload 22429 140007858446976 /home/ubuntu/medixpert/accounts/serializers.py changed, reloading.
+INFO 2025-07-26 07:24:17,532 autoreload 22476 140646683107968 Watching for file changes with StatReloader
+INFO 2025-07-26 07:24:44,209 autoreload 22710 139914513719936 Watching for file changes with StatReloader
+ERROR 2025-07-26 07:25:17,264 views 22710 139913864496704 Registration error: User() got unexpected keyword arguments: 'license_number', 'years_of_experience', 'consultation_fee', 'specialization', 'city', 'state'
+ERROR 2025-07-26 07:25:17,265 log 22710 139913864496704 Internal Server Error: /api/auth/auth/register/
+ERROR 2025-07-26 07:25:17,266 basehttp 22710 139913864496704 "POST /api/auth/auth/register/ HTTP/1.1" 500 50
+INFO 2025-07-26 07:26:49,094 autoreload 22710 139914513719936 /home/ubuntu/medixpert/accounts/serializers.py changed, reloading.
+INFO 2025-07-26 07:26:49,852 autoreload 22927 140200033190528 Watching for file changes with StatReloader

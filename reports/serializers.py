@@ -1,11 +1,11 @@
 from rest_framework import serializers
 from .models import MedicalReport, ReportAnalysis
-from accounts.serializers import PatientSerializer, DoctorSerializer
+from accounts.serializers import PatientProfileSerializer, DoctorProfileSerializer
 
 class MedicalReportSerializer(serializers.ModelSerializer):
-    patient = PatientSerializer(read_only=True)
+    patient = PatientProfileSerializer(read_only=True)
     uploaded_by = serializers.StringRelatedField(read_only=True)
-    doctor = DoctorSerializer(read_only=True)
+    doctor = DoctorProfileSerializer(read_only=True)
     file_url = serializers.SerializerMethodField()
     
     class Meta:
@@ -47,7 +47,7 @@ class MedicalReportUploadSerializer(serializers.ModelSerializer):
 
 class ReportAnalysisSerializer(serializers.ModelSerializer):
     report = MedicalReportSerializer(read_only=True)
-    analyzed_by = DoctorSerializer(read_only=True)
+    analyzed_by = DoctorProfileSerializer(read_only=True)
     
     class Meta:
         model = ReportAnalysis

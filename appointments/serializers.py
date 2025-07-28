@@ -1,10 +1,10 @@
 from rest_framework import serializers
 from .models import Appointment, DoctorAvailability, Review
-from accounts.serializers import DoctorSerializer, PatientSerializer
+from accounts.serializers import DoctorProfileSerializer, PatientProfileSerializer
 
 class AppointmentSerializer(serializers.ModelSerializer):
-    doctor = DoctorSerializer(read_only=True)
-    patient = PatientSerializer(read_only=True)
+    doctor = DoctorProfileSerializer(read_only=True)
+    patient = PatientProfileSerializer(read_only=True)
     doctor_id = serializers.IntegerField(write_only=True)
     
     class Meta:
@@ -36,7 +36,7 @@ class AppointmentSerializer(serializers.ModelSerializer):
         return attrs
 
 class DoctorAvailabilitySerializer(serializers.ModelSerializer):
-    doctor = DoctorSerializer(read_only=True)
+    doctor = DoctorProfileSerializer(read_only=True)
     day_name = serializers.CharField(source='get_day_of_week_display', read_only=True)
     
     class Meta:
